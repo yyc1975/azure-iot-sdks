@@ -14,7 +14,7 @@ Run a simple Csharp sample on [Pluto E220](http://client.mitac.com/products-Embe
 
 **About this document**
 
-This document describes how to connect [Pluto E220] device running Windows 10 with Azure IoT SDK. This multi-step process includes:
+This document describes how to connect [Pluto E220](http://client.mitac.com/products-Embedded-Box-PC-PlutoE220.html) device running Windows 10 with Azure IoT SDK. This multi-step process includes:
 -   Configuring Azure IoT Hub
 -   Registering your IoT device
 -   Build and deploy Azure IoT SDK on device
