@@ -28,11 +28,11 @@ You should have the following items ready before beginning the process:
     [azure-iot-sdks](https://github.com/Azure/azure-iot-sdks) GitHub
     public repository.
 -   Required hardware:
-	-   [Pluto E220](http://client.mitac.com/products-Embedded-Box-PC-PlutoE220.html )
+	-   [Pluto E220](http://client.mitac.com/products-Embedded-Box-PC-PlutoE220.html)
 	-   USB keyboard
 	-   USB mouse
 	-   HDMI or DVI cable
-	-   TV/ Mobitor that support HDMI or DVI
+	-   TV/Monitor that support HDMI or DVI
 -   Download and install [DeviceExplorer](https://github.com/Azure/azure-iot-sdks/releases/download/2015-11-13/SetupDeviceExplorer.msi).
 -   [Set up your IoT hub](https://github.com/Azure/azure-iot-sdks/blob/master/doc/setup_iothub.md).
 
@@ -45,13 +45,13 @@ You should have the following items ready before beginning the process:
 <a name="PrepareDevice"></a>
 # Step 2: Prepare your Device
 
-1.  Power on [Pluto E220].
+1.  Power on [Pluto E220](http://client.mitac.com/products-Embedded-Box-PC-PlutoE220.html).
 
-2.  Connect [Pluto E220] to your network by using ethernet cable or by using Wireless router.
+2.  Connect [Pluto E220](http://client.mitac.com/products-Embedded-Box-PC-PlutoE220.html) to your network by using ethernet cable or by using Wireless router.
 
 2.  Install Visual Studio 2015 and Tools. 
 
-    To create Windows IoT Core solutions, you will need to install [Visual Studio 2015](https://www.visualstudio.com/en-us/products/vs-2015-product-editions.aspx). You can install any edition of Visual Studio, including the free Community edition.
+    To run the csharp sample , you will need to install [Visual Studio 2015](https://www.visualstudio.com/en-us/products/vs-2015-product-editions.aspx). You can install any edition of Visual Studio, including the free Community edition.
 
     Make sure to select the **Universal Windows App Development Tools**, the component required for writing apps Windows 10:
 
@@ -62,7 +62,7 @@ You should have the following items ready before beginning the process:
 
 -   Download the [Azure IoT SDK](https://github.com/Azure/azure-iot-sdks) and the sample programs and save them to your local repository.
 -   Start a new instance of Visual Studio 2015.
--   Open the **iothub_csharp_client.sln** solution in the `csharp\device` folder in your local copy of the repository.
+-   Open the **iothub_csharp_deviceclient.sln** solution in the `csharp\device` folder in your local copy of the repository.
 -   In Visual Studio, from Solution Explorer, navigate to the **samples** folder.
 -   In the **DeviceClientAmqpSample** project, open the ***Program.cs*** file.
 -   Locate the following code in the file:
